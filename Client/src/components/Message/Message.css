@@ -1,7 +1,7 @@
 .messageBox {
     background: #F3F3F3;
     border-radius: 20px;
-    padding: 5px 20px;
+    padding: 0px 15px;
     color: white;
     display: inline-block;
     max-width: 80%;
@@ -11,7 +11,7 @@
     width: 100%;
     letter-spacing: 0;
     float: left;
-    font-size: 1.1em;
+    font-size: 1em;
     word-wrap: break-word;
   }
   
@@ -30,7 +30,7 @@
     display: flex;
     align-items: center;
     font-family: Helvetica;
-    color: #828282;
+    color: #d1cece;
     letter-spacing: 0.3px;
   }
   
@@ -58,8 +58,8 @@
     color: #353535;
   }
   
-  .backgroundBlue {
-    background: #2979FF;
+  .backgroundColor {
+    background: #ba53de;
   }
   
   .backgroundLight {
