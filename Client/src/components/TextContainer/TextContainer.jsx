@@ -6,14 +6,14 @@ import './TextContainer.css';
 
 const TextContainer = ({ users }) => (
   <div className="textContainer">
-    <div>
-      <h1>Chat Court <span role="img" aria-label="emoji">💬</span><span role="img" aria-label="emoji">❤️</span></h1>
+    <div className='headerContainer'>
+      <h3>Chat Court <span role="img" aria-label="emoji">💬</span><span role="img" aria-label="emoji">❤️</span></h3>
     </div>
     {
       users
         ? (
-          <div>
-            <h1>People currently chatting</h1>
+          <div className='userContainer'>
+            <h4 style={{color:'black'}}>People currently chatting</h4>
             <div className="activeContainer">
               <h2>
                 {users.map(({name}) => (
